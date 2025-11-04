@@ -41,11 +41,11 @@ const mockPostsData: Omit<Post, 'date'>[] = [
     id: 1,
     author: "おすすめユーザー",
     timeOffset: -360, // -6時間（一番古い）
-    content: "とりあえず初心者はこれ入れておけってサイト紹介するね！！✨\n\n⓵ﾊﾋﾟﾒ 茶飯だけならここがおすすめ\nhttps://stella-nova.click/118we\n\n【おすすめ理由】\n✅ 登録無料で始めやすい\n✅ 🍵相場が1〜2万で安定してる\n✅ 初心者でも使いやすいUI\n✅ サポート体制がしっかりしてる\n✅ 真面目な🅟さん多め",
+    content: "とりあえず初心者は両方入れておけってサイト紹介するね！！✨\n\n⓵ワクワクメール（🅟活の定番）\nhttps://stella-nova.click/8WZ1\n\n⓶ハッピーメール（併用必須）\nhttps://stella-nova.click/118we\n\n【両方使うメリット】\n✅ アポ数が2倍以上になる\n✅ 片方ダメでももう片方でカバー\n✅ 条件のいい🅟さんを選べる\n✅ リスク分散できて安心\n✅ 両方とも登録無料\n\n⚠️ 重要：片方だけだと機会損失！\nまずは両方登録が鉄則💪",
     isSponsored: true,
     avatarUrl: blackHairPhoneIcon,
-    likes: 42,
-    replies: 3,
+    likes: 58,
+    replies: 7,
     imageUrl: papaAppsImage
   },
   {
@@ -359,6 +359,17 @@ const mockPostsData: Omit<Post, 'date'>[] = [
   },
   {
     id: 36,
+    author: "おすすめユーザー",
+    timeOffset: -84,
+    content: "みんなの質問見てて思ったけど、やっぱり最初のアプリ選びが超重要だよ！🔥\n\n私が使ってるのはこの2つ👇\n\n🌟ワクワクメール（メイン）\nhttps://stella-nova.click/8WZ1\n\n💕ハッピーメール（サブ）\nhttps://stella-nova.click/118we\n\n【実体験レポ】\n✅ 両方登録でアポが途切れない\n✅ ワクワクで平均2万/🍵\n✅ ハピメで定期🅟さん3人\n✅ 変な人少なくて安心\n✅ PayPay送金が多くて楽\n\nとりあえず両方入れとけば間違いない💕",
+    isSponsored: true,
+    avatarUrl: purpleHairIcon,
+    likes: 73,
+    replies: 11,
+    imageUrl: papaAppsImage
+  },
+  {
+    id: 37,
     author: "名無しさん",
     timeOffset: -80,
     content: ">>33\n愚痴とか不満ばっかり言うのもアウト😅\n楽しい雰囲気作るのが大事だから、ポジティブな話題を心がけてる🌸\nあと清潔感は超重要！身だしなみちゃんとしないとね💅",
@@ -367,7 +378,7 @@ const mockPostsData: Omit<Post, 'date'>[] = [
     replies: 0
   },
   {
-    id: 37,
+    id: 38,
     author: "名無しさん",
     timeOffset: -72,
     content: "🍵終わったあとPayPay送ってくれた💰\n現金もいいけどペイペイもありがたい✨\nワクワク🅟さんありがとうございます🙏",
@@ -377,7 +388,7 @@ const mockPostsData: Omit<Post, 'date'>[] = [
     imageUrl: paypayImage
   },
   {
-    id: 38,
+    id: 39,
     author: "名無しさん",
     timeOffset: -64,
     content: ">>26\n固定4人とか神じゃん！\n私もそれくらい作りたい🥺",
@@ -386,7 +397,7 @@ const mockPostsData: Omit<Post, 'date'>[] = [
     replies: 0
   },
   {
-    id: 39,
+    id: 40,
     author: "名無しさん",
     timeOffset: -56,
     content: "今日ワクワクで会った人\nめちゃくちゃタイプだった😳💓\nお金もらうの申し訳ないレベルw\nでもしっかり2もらった🤣",
@@ -395,7 +406,7 @@ const mockPostsData: Omit<Post, 'date'>[] = [
     replies: 2
   },
   {
-    id: 40,
+    id: 41,
     author: "名無しさん",
     timeOffset: -48,
     content: "バイト辞めてワクワクとハッピーメール専業になった\n月15〜20は安定して稼げるから問題なし💰\n自由な時間も増えて最高の生活",
@@ -404,16 +415,16 @@ const mockPostsData: Omit<Post, 'date'>[] = [
     replies: 7
   },
   {
-    id: 41,
+    id: 42,
     author: "名無しさん",
     timeOffset: -40,
-    content: ">>40\nマジで？！すごすぎる\n私もそれ目指そうかな…",
+    content: ">>41\nマジで？！すごすぎる\n私もそれ目指そうかな…",
     avatarUrl: catIcon,
     likes: 11,
     replies: 0
   },
   {
-    id: 42,
+    id: 43,
     author: "名無しさん",
     timeOffset: -32,
     content: "今週の稼ぎ\n㊊ワクワク🍵1\n㊋休み\n㊌ハッピメ🍵🍽3.5\n㊍ワクワク🍵1.5\n㊎休み\n㊏ワクワク🍽🎁5\n㊐ハッピメ🍵🍵2.5\n\n合計13.5！過去最高記録更新🎉",
@@ -422,7 +433,7 @@ const mockPostsData: Omit<Post, 'date'>[] = [
     replies: 5
   },
   {
-    id: 43,
+    id: 44,
     author: "名無しさん",
     timeOffset: -24,
     content: "今日のハッピーメール🅟さん\nペイペイで送ってくれるから楽でいい💕\nお財布出さなくていいし最高w",
@@ -431,7 +442,7 @@ const mockPostsData: Omit<Post, 'date'>[] = [
     replies: 2
   },
   {
-    id: 44,
+    id: 45,
     author: "名無しさん",
     timeOffset: -16,
     content: "定期🅟さんから誕生日プレゼントもらった🎁\nDiorのバッグ欲しいって言ってたら本当に買ってくれた\nハッピーメールで出会えてよかった😭💕",
@@ -441,16 +452,16 @@ const mockPostsData: Omit<Post, 'date'>[] = [
     imageUrl: diorBagImage
   },
   {
-    id: 45,
+    id: 46,
     author: "名無しさん",
     timeOffset: -14,
-    content: ">>42\nえぐすぎｗｗｗ\n私も頑張ろ💪🔥",
+    content: ">>43\nえぐすぎｗｗｗ\n私も頑張ろ💪🔥",
     avatarUrl: purpleHairIcon,
     likes: 10,
     replies: 0
   },
   {
-    id: 46,
+    id: 47,
     author: "名無しさん",
     timeOffset: -12,
     content: "今日のランチ🍽で3もらえた\nしかもめっちゃ美味しいお店連れてってくれて幸せ✨\nワクワク様々だわ🙏",
@@ -459,7 +470,7 @@ const mockPostsData: Omit<Post, 'date'>[] = [
     replies: 2
   },
   {
-    id: 47,
+    id: 48,
     author: "名無しさん",
     timeOffset: -10,
     content: "ハッピーメールで会った人\n2時間🍵するだけで2.5くれるから神\n週1で会う約束したから月10は確定✨",
@@ -468,7 +479,7 @@ const mockPostsData: Omit<Post, 'date'>[] = [
     replies: 3
   },
   {
-    id: 48,
+    id: 49,
     author: "名無しさん",
     timeOffset: -8,
     content: "アルフォート貯金\n今月だけで25万貯まった🍫💰\nワクワクとハッピーメール様々です🙏✨",
@@ -477,7 +488,7 @@ const mockPostsData: Omit<Post, 'date'>[] = [
     replies: 6
   },
   {
-    id: 49,
+    id: 50,
     author: "名無しさん",
     timeOffset: -6,
     content: "PayPay1.5万きた〜💰\n別れ際にサクッと送ってくれるの神すぎる\nワクワクで出会えてよかった😊✨",
@@ -487,7 +498,7 @@ const mockPostsData: Omit<Post, 'date'>[] = [
     imageUrl: paypay15000Image
   },
   {
-    id: 50,
+    id: 51,
     author: "名無しさん",
     timeOffset: -4,
     content: "最近の🅟さんみんなペイペイ派\n現金数える手間ないし私も助かるｗ\nハッピーメール使いやすすぎる💕",
@@ -496,7 +507,7 @@ const mockPostsData: Omit<Post, 'date'>[] = [
     replies: 1
   },
   {
-    id: 51,
+    id: 52,
     author: "名無しさん",
     timeOffset: -2,
     content: "今日🍵2件回したけど\n両方ともペイペイで送ってくれた📱💰\n合計3万ゲット！ワクワク最高🙌",
@@ -506,7 +517,7 @@ const mockPostsData: Omit<Post, 'date'>[] = [
     imageUrl: paypay30000Image
   },
   {
-    id: 52,
+    id: 53,
     author: "名無しさん",
     timeOffset: 0,
     content: "今日のハッピーメール🍽で2万\nしかもペイペイで受け取り完了💕\n太っ腹な🅟さんで助かる🙏✨",
@@ -516,16 +527,16 @@ const mockPostsData: Omit<Post, 'date'>[] = [
     imageUrl: paypay20000Image
   },
   {
-    id: 53,
+    id: 54,
     author: "名無しさん",
     timeOffset: 2,
-    content: ">>52\n2万とかやばすぎｗｗｗ\n私も🍽狙ってみよ😳",
+    content: ">>53\n2万とかやばすぎｗｗｗ\n私も🍽狙ってみよ😳",
     avatarUrl: catEarsIcon,
     likes: 12,
     replies: 0
   },
   {
-    id: 54,
+    id: 55,
     author: "名無しさん",
     timeOffset: 4,
     content: "ワクワクメールで出会った太🅟さん\n🍽🎁で5万PayPay送ってくれた😭💕\n人生で一番稼いだ日かも…\nマジで感謝しかない🙏✨",
@@ -535,25 +546,25 @@ const mockPostsData: Omit<Post, 'date'>[] = [
     imageUrl: paypay50000Image
   },
   {
-    id: 55,
+    id: 56,
     author: "名無しさん",
     timeOffset: 6,
-    content: ">>54\n5万！？！？えぐすぎる\n羨ましすぎて泣いた🥺",
+    content: ">>55\n5万！？！？えぐすぎる\n羨ましすぎて泣いた🥺",
     avatarUrl: purpleHairIcon,
     likes: 18,
     replies: 0
   },
   {
-    id: 56,
+    id: 57,
     author: "名無しさん",
     timeOffset: 8,
-    content: ">>54\nそういう人と出会いたい…\nワクワク登録しよかな",
+    content: ">>55\nそういう人と出会いたい…\nワクワク登録しよかな",
     avatarUrl: mouseIcon,
     likes: 15,
     replies: 0
   },
   {
-    id: 57,
+    id: 58,
     author: "名無しさん",
     timeOffset: 10,
     content: "今日🍵してたら現金で1万くれた💴\nお札きれいに渡してくれる人好き🥰\nワクワクメールいい人多すぎ",
@@ -563,7 +574,7 @@ const mockPostsData: Omit<Post, 'date'>[] = [
     imageUrl: cash10000Image
   },
   {
-    id: 58,
+    id: 59,
     author: "名無しさん",
     timeOffset: 12,
     content: "半年記念でmiumiuの財布プレゼントしてくれた🎁✨\n定期🅟さん神すぎて泣いた😭💕\nハッピーメールで出会えたの奇跡",
@@ -573,25 +584,25 @@ const mockPostsData: Omit<Post, 'date'>[] = [
     imageUrl: miumiuWalletImage
   },
   {
-    id: 59,
+    id: 60,
     author: "名無しさん",
     timeOffset: 14,
-    content: ">>58\nmiumiu！！！羨ましすぎる😳💕\n私もブランド物欲しい〜",
+    content: ">>59\nmiumiu！！！羨ましすぎる😳💕\n私もブランド物欲しい〜",
     avatarUrl: animeIcon,
     likes: 14,
     replies: 0
   },
   {
-    id: 60,
+    id: 61,
     author: "名無しさん",
     timeOffset: 16,
-    content: ">>44\nDiorのバッグとかやばすぎ\n定期🅟さん作るのが目標になった🎯",
+    content: ">>45\nDiorのバッグとかやばすぎ\n定期🅟さん作るのが目標になった🎯",
     avatarUrl: purpleHairIcon,
     likes: 11,
     replies: 0
   },
   {
-    id: 61,
+    id: 62,
     author: "名無しさん",
     timeOffset: 18,
     content: "現金派の🅟さんも好き\nペイペイと違って実感湧くんだよねｗ\nワクワクで色んな人と会えて楽しい💰",
@@ -600,13 +611,24 @@ const mockPostsData: Omit<Post, 'date'>[] = [
     replies: 1
   },
   {
-    id: 62,
+    id: 63,
     author: "名無しさん",
     timeOffset: 20,
     content: "みんなのアドバイスめっちゃ参考になる🙏✨\nこのスレ保存した！\nこれから頑張ります💪",
     avatarUrl: catIcon,
     likes: 27,
     replies: 0
+  },
+  {
+    id: 64,
+    author: "おすすめユーザー",
+    timeOffset: 22,
+    content: "━━━━━━━━━━━━━━━━\n📚 このスレの攻略まとめ 📚\n━━━━━━━━━━━━━━━━\n\nみんなの体験談見てわかったこと👇\n\n【稼げるアプリランキング】\n🥇 ワクワクメール\n   https://stella-nova.click/8WZ1\n🥈 ハッピーメール\n   https://stella-nova.click/118we\n\n⚠️ 重要：両方登録が基本！\n片方だけだとチャンス半減します\n   \n【みんなの平均収入】\n🍵：1.5〜2.5万\n🍽：2〜3.5万\n🍽🎁：5万以上も！\n\n【成功の秘訣】\n✅ プロフィールは盛りすぎない\n✅ 返信は1〜2時間後が理想\n✅ 初回は昼カフェで短時間\n✅ お礼メッセージは必須\n✅ 清潔感が何より大事\n\n【NG行動】\n❌ ドタキャン\n❌ スマホばかり見る\n❌ 愚痴や不満を言う\n❌ お金の話ばかり\n\n【初心者へのアドバイス】\nまずはワクワク＆ハピメ両方登録！\n🍵から始めて慣れたら🍽へ\n定期🅟さん作れば月15〜20安定💰\n\nこのスレで勉強して、\nみんなで稼いでいきましょ〜！🎉✨",
+    isSponsored: true,
+    avatarUrl: blackHairPhoneIcon,
+    likes: 142,
+    replies: 23,
+    imageUrl: papaAppsImage
   },
 ];
 
