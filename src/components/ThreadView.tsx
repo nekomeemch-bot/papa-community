@@ -639,7 +639,7 @@ const generatePostDate = (offsetMinutes: number): string => {
   return `${postTime.getFullYear()}/${String(postTime.getMonth() + 1).padStart(2, '0')}/${String(postTime.getDate()).padStart(2, '0')} ${String(postTime.getHours()).padStart(2, '0')}:${String(postTime.getMinutes()).padStart(2, '0')}:${String(postTime.getSeconds()).padStart(2, '0')}`;
 };
 
-// テキスト内のURLをリンクに変換する関数
+// テキスト内のURLをリンクに変換する関数（改行も処理）
 const linkifyText = (text: string) => {
   const urlPattern = /(https?:\/\/[^\s]+)/g;
   const parts = text.split(urlPattern);
@@ -658,7 +658,13 @@ const linkifyText = (text: string) => {
         </a>
       );
     }
-    return part;
+    // 改行を<br />タグに変換
+    return part.split('\n').map((line, i, arr) => (
+      <span key={`${index}-${i}`}>
+        {line}
+        {i < arr.length - 1 && <br />}
+      </span>
+    ));
   });
 };
 
