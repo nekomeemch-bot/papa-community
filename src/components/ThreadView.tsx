@@ -1,4 +1,4 @@
-import { ArrowLeft, User, Crown, UserCircle2, Sparkles, Star, Send, Heart, MessageCircle } from "lucide-react";
+import { User, Crown, UserCircle2, Sparkles, Star, Send, Heart, MessageCircle } from "lucide-react";
 import { useState, useEffect } from "react";
 import mouseIcon from "figma:asset/154a6e96d83927d593e5bfd6fe5990336d9f4ff7.png";
 import catIcon from "figma:asset/3a37c9139698db159e10931b63178d0fa4ea4482.png";
@@ -763,14 +763,6 @@ export function ThreadView({ threadId, onBack }: ThreadViewProps) {
 
   return (
     <div className="space-y-4">
-      <button
-        onClick={onBack}
-        className="flex items-center gap-2 text-purple-500 hover:text-purple-600 bg-white/60 backdrop-blur-md px-4 py-2 rounded-full shadow-sm hover:shadow-md transition-all border border-purple-200/50"
-      >
-        <ArrowLeft className="w-4 h-4" />
-        スレッド一覧に戻る
-      </button>
-      
       <div className="bg-white/50 backdrop-blur-md rounded-3xl shadow-lg border border-purple-200/50 overflow-hidden">
         <div className="bg-gradient-to-r from-pink-300 via-purple-300 to-blue-300 px-6 py-4">
           <h2 className="text-white">【公式】PAPA COMMUNITY へようこそ！✨</h2>
